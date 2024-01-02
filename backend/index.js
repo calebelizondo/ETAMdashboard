@@ -1,3 +1,4 @@
+const sqlite3 = require('sqlite3');
 const app = require('express')();
 const PORT = 8080;
 
