@@ -75,6 +75,7 @@ function processCSVFile(filePath) {
         console.log(`Data from ${filePath} inserted into the database.`);
         db.close();
       });
+
   }
   
   
@@ -100,3 +101,9 @@ fs.readdirSync(csvFolder).forEach((file) => {
     processCSVFile(filePath);
   }
 });
+
+module.exports = {
+    initializeDatabase,
+    checkAndDeleteDatabase,
+    processCSVFile,
+  };

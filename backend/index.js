@@ -1,16 +1,14 @@
-
 const app = require('express')();
 const PORT = 8080;
 
-
-//endpoint for specific program
-app.get('/', (req, res) => {
-    res.send('Hello World!');
+// Endpoint for all programs
+app.get('/get-all-trends', (req, res) => {
+    res.send('Get all trends!');
 });
 
-//endpoint for all programs
-app.get('/all', (req, res) => {
-    res.send('Hello World!');
+// Endpoint for specific program
+app.get('/get-specific-program', (req, res) => {
+    res.send('Get specific program!');
 });
 
 app.listen(
