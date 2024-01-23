@@ -1,0 +1,28 @@
+﻿2020,Total Admits,Auto-Admit,First Choice,,,,Second Choice,,,Third Choice,,,"Fourth, Fifth and not original choice",,
+,,,,Auto-Entry,Number Selected,Number Denied,,Selected,Denied,,Selected,Denied,,Selected,Denied
+Ocean (GV),4,0,3,0,3,0,0,0,0,0,0,0,1,1,0
+Interdisciplinary (GV),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Multidisciplinary (GV),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Interdisciplinary (MA),3,0,2,0,2,0,1,1,0,0,0,0,0,0,0
+Multidisciplinary (MA),3,0,3,0,3,0,0,0,0,0,0,0,0,0,0
+Architectural,31,15,10,15,10,6,4,4,6,2,2,8,0,0,2
+Interdisciplinary (CS),23,8,7,8,7,0,4,4,2,4,4,3,0,0,2
+Aerospace,195,142,51,142,51,40,2,2,29,0,0,11,0,0,3
+Biological and Agricultural,25,3,10,3,10,0,8,8,0,2,2,0,2,2,0
+Biomedical,158,158,0,158,0,63,0,0,5,0,0,3,0,0,0
+Chemical,238,166,54,166,54,13,18,18,4,0,0,6,0,0,4
+Civil,186,101,64,101,64,32,16,16,16,4,4,8,1,1,5
+Environmental,20,4,11,4,11,2,4,4,1,0,0,4,1,1,3
+Computer Science (CS),368,359,9,359,9,112,0,0,22,0,0,7,0,0,1
+Computer,166,128,18,128,18,54,15,15,112,5,5,80,0,0,8
+Electrical,257,106,68,106,68,14,33,33,8,18,18,4,32,32,8
+Electronic Systems,61,2,14,2,14,0,12,12,0,11,11,0,22,22,0
+Industrial Distribution,126,21,75,21,75,1,14,14,2,12,12,0,4,4,0
+Manufacturing and Mechanical,53,3,23,3,23,0,15,15,0,6,6,0,6,6,0
+Multidisciplinary (CS),64,17,32,17,32,0,9,9,0,3,3,0,3,3,0
+Industrial and Systems,174,61,57,61,57,3,26,26,0,12,12,1,18,18,0
+Materials Science,52,14,12,14,12,0,14,14,2,7,7,1,5,5,0
+Mechanical,410,349,55,349,55,27,6,6,40,0,0,14,0,0,5
+Nuclear,45,9,15,9,15,0,6,6,0,7,7,0,8,8,0
+Ocean (CS),25,8,4,8,4,0,7,7,0,3,3,0,3,3,0
+Petroleum,62,24,24,24,24,3,6,6,1,3,3,1,5,5,1

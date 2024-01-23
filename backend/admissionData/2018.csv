@@ -1,0 +1,28 @@
+﻿2018,Total Admits,Auto-Admit,First Choice,,,,Second Choice,,,Third Choice,,,"Fourth, Fifth or not original choice",,
+,,,,Auto-Entry,Number Selected,Number Denied,,Selected,Denied,,Selected,Denied,,Selected,Denied
+Ocean (GV),5,1,4,1,4,0,0,0,0,0,0,1,0,0,0
+Interdisciplinary (GV),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Multidisciplinary (GV),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Interdisciplinary (MA),8,1,7,1,7,0,0,0,0,0,0,0,0,0,0
+Multidisciplinary (MA),1,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+Architectural,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Interdisciplinary (CS),5,3,2,3,2,3,0,0,1,0,0,3,0,0,1
+Aerospace,190,108,76,108,76,46,6,6,43,0,0,12,0,0,1
+Biological and Agricultural,42,8,20,8,20,0,12,12,1,2,2,0,0,0,2
+Biomedical,142,96,43,96,43,39,1,1,9,2,2,5,0,0,0
+Chemical,246,154,91,154,91,42,1,1,20,0,0,7,0,0,3
+Civil,196,62,108,62,108,19,23,23,19,3,3,7,0,0,2
+Environmental,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Computer Science (CS),205,135,70,135,70,106,0,0,25,0,0,4,0,0,1
+Computer,232,102,48,102,48,41,29,29,100,53,53,30,0,0,0
+Electrical,216,70,81,70,81,0,40,40,4,23,23,9,2,2,4
+Electronic Systems,61,2,16,2,16,0,6,6,0,9,9,0,28,28,0
+Industrial Distribution,170,22,99,22,99,0,23,23,0,18,18,0,8,8,0
+Manufacturing and Mechanical,86,5,22,5,22,0,22,22,0,15,15,0,22,22,0
+Multidisciplinary (CS),63,2,29,2,29,0,10,10,0,5,5,0,17,17,0
+Industrial and Systems,126,34,52,34,52,22,16,16,2,13,13,8,11,11,2
+Materials Science,42,12,8,12,8,4,11,11,2,10,10,2,1,1,1
+Mechanical,400,265,135,265,135,202,0,0,44,0,0,12,0,0,2
+Nuclear,62,12,17,12,17,0,13,13,1,11,11,0,9,9,0
+Ocean (CS),25,2,8,2,8,1,6,6,1,5,5,0,4,4,0
+Petroleum,96,20,41,20,41,0,20,20,4,14,14,3,1,1,1
