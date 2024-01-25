@@ -1,4 +1,4 @@
-﻿Program,Total Admits,Auto-Admit,First Choice,Auto-Entry,1Number Selected,1Number Denied,Second Choice,2Selected,2Denied,Third Choice,2Selected,2Denied,"Fourth, Fifth and not original choice",2Selected,2Denied
+﻿Program,Total Admits,Auto-Admit,First Choice,Auto-Entry,1Number Selected,1Number Denied,Second Choice,2Selected,2Denied,Third Choice,3Selected,3Denied,"Fourth, Fifth and not original choice",4Selected,4Denied
 Computer Science (GV),10,0,10,0,10,1,0,0,0,0,0,0,0,0,0
 Ocean (GV),4,1,2,1,2,0,1,1,0,0,0,0,0,0,0
 Interdisciplinary (GV),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

@@ -18,7 +18,6 @@ function initializeDatabase() {
         program TEXT,
         total_admits INTEGER,
         auto_admit INTEGER,
-        first_choice_auto_entry INTEGER,
         first_choice_selected INTEGER,
         first_choice_denied INTEGER,
         second_choice_selected INTEGER,
@@ -50,12 +49,9 @@ function processCSVFile(filePath) {
           trimmedRow[key.trim()] = row[key];
         });
   
-        // Log the 'Program' value to check if it's being read correctly
-        console.log(`Program: ${trimmedRow['Program']}`);
-  
         // Insert data into the database
         db.run(`
-          INSERT INTO admission_data VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+          INSERT INTO admission_data VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
         `, [
           yearFromFilename,
           trimmedRow['Program'],
@@ -102,8 +98,3 @@ fs.readdirSync(csvFolder).forEach((file) => {
   }
 });
 
-module.exports = {
-    initializeDatabase,
-    checkAndDeleteDatabase,
-    processCSVFile,
-  };
