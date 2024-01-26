@@ -1,6 +1,15 @@
-const app = require('express')();
+const express = require('express');
+const app = express(); 
 const sqlite3 = require('sqlite3').verbose();
 const PORT = 8080;
+const path = require('path');
+
+app.use(express.static(path.join(__dirname, '../frontend')));
+
+//serve frontend
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + './../frontend/index.html');
+});
 
 // Endpoint for all programs
 app.get('/get-all-trends', (req, res) => {
