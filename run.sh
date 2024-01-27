@@ -9,4 +9,5 @@ node populate_db.js
 node index.js &
 
 cd ../frontend
-tsc index.tsx
+#install deps
+npm install
