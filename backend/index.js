@@ -14,6 +14,7 @@ app.get('/', (req, res) => {
 
     const args = {
       BACKEND_URL: process.env.BACKEND_URL,
+      DEBUG: process.env.DEBUG
     }
     res.render(path.join(__dirname, '../frontend/index.ejs'), args);
 });

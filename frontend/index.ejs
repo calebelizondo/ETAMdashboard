@@ -6,12 +6,17 @@
     <title>ETAM dashboard</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <style src="./index.css"></style>
+
+    <script>
+        var BACKEND_URL = '<%= BACKEND_URL %>';
+        var DEBUG = '<%= DEBUG %>';
+    </script>
 </head>
 
     <body>
-        <p>Backend URL: <%= BACKEND_URL %></p>
 
-        <svg width="400" height="200"></svg>
+
+        <svg width="100%"></svg>
         <script src="./index.js"></script>
     </body>
 </html>
