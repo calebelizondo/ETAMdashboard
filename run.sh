@@ -6,4 +6,7 @@ npm install
 #populate the database
 node populate_db.js
 #start server
-node index.js
+node index.js &
+
+cd ../frontend
+tsc index.tsx
