@@ -9,11 +9,24 @@
 
     <script>
         var BACKEND_URL = '<%= BACKEND_URL %>';
-        var DEBUG = '<%= DEBUG %>';
+        var DEBUG = parseInt('<%= DEBUG %>');
     </script>
 </head>
 
     <body>
+
+
+        <select id="program-select">
+            <option>All programs</option>
+        </select>
+        <select id="choice-select">
+            <option>All admits</option>
+            <option>First choice</option>
+            <option>Second choice</option>
+            <option>Third choice</option>
+            <option>Fourth, Fifth choice</option>
+        </select>
+        <select id="year-select"></select>
 
 
         <svg width="100%"></svg>
